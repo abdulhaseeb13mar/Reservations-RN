@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 //--------LIST  OF PROPS IT TAKES--------------------
 //  label [String]
 //  isPassword [Boolean]

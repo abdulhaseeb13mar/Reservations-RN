@@ -2,9 +2,12 @@ import {Dimensions, Platform, PixelRatio} from 'react-native';
 
 export const colors = {};
 
+const width = Dimensions.get('window').width;
+const height = Dimensions.get('window').height;
+
 export const metrics = {
-  width: Dimensions.get('window').width,
-  height: Dimensions.get('window').height,
+  width: width,
+  height: height,
   defaultMargin: Dimensions.get('window').width * 0.05,
   smallMargin: width * 0.03,
   largeMargin: width * 0.08,
